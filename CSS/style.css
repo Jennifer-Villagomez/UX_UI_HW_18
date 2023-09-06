@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+.logo {
+  width: 10%;
+  padding: 1%;
+  text-align: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: #f2bba7;
+  font-size: 0.75rem;
+  font-family: "Urbanist", sans-serif;
+  font-style: italic;
+  text-align: left;
+}
+nav {
+  width: 72%;
+  padding: 1%;
+}
+nav ul {
+  width: 50%;
+  margin-left: auto;
+  text-align: right;
+}
+nav li {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0 20px;
+  font-family: "Urbanist", sans-serif;
+  font-style: italic;
+}
+
+.heroImg {
+  height: 100%;
+  padding: 25px;
+  background-color: #f2f2f2;
+}
+
+.content {
+  display: flex;
+  width: 75%;
+  column-gap: 1.5rem;
+  margin: 0 auto;
+}
+h2 {
+  font-family: "Newsreader", serif;
+  font-size: 2rem;
+  color: #bf826b;
+}
+p {
+  display: flex;
+  font-family: "Overpass", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+footer {
+  background-color: #f2bba7;
+  color: #0d0d0d;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  margin: auto;
+  font-size: 1.2rem;
+  font-family: "Urbanist", sans-serif;
+  font-style: italic;
+  padding: 20px;
+}
+
+footer ul {
+  margin: auto;
+}
+.flexContainer {
+  display: flex;
+  column-gap: 2.5rem;
+  background-color: #f2f2f2;
+  padding-bottom: 25px;
+}
+h1 {
+  font-size: 2rem;
+  font-family: "Newsreader", serif;
+  font-style: bold;
+  text-decoration: underline;
+  color: #717366;
+}
+.w-50 {
+  width: 50%;
+}
+
+h3 {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.1rem;
+  font-style: bold;
+  color: #bf826b;
+}
+.container {
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+}
+.w-33 {
+  width: 33%;
+}
+
+@media screen and (width<600px) {
+  .container {
+    width: 100%;
+  }
+}
